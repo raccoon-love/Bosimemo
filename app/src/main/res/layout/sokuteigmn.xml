@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/kabegami22"
+    android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/topbtn"
+        android:id="@+id/imageButton2"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onclicktop" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/yoboubtn"
+        android:background="@android:color/transparent"
+        android:id="@+id/imageButton3"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:onClick="onclickyobou" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sokuteibtn"
+        android:background="@android:color/transparent"
+        android:id="@+id/imageButton"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/imageButton2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/itiranbtn"
+        android:layout_marginBottom="13dp"
+        android:id="@+id/itiran"
+        android:background="@android:color/transparent"
+        android:layout_above="@+id/imageButton2"
+
+        android:layout_alignStart="@+id/imageButton"
+        android:onClick="onclickitiran" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tourokubtn"
+        android:id="@+id/toroku"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/itiran"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="22dp"
+        android:onClick="onclicktouroku" />
+</RelativeLayout>

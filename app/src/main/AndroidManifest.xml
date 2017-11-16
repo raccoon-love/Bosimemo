@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sunrise_system.bosimemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/approgo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+        <activity android:screenOrientation="portrait" android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".NameTouroku" android:screenOrientation="portrait"/>
+        <activity android:name=".YobouGamen" android:screenOrientation="portrait"/>
+        <activity android:name=".KeisokuGamen" android:screenOrientation="portrait"/>
+        <activity android:name=".SokuteiGamen" android:screenOrientation="portrait"/>
+        <activity android:name=".TopGamen" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou1" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou2" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou3" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou4" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou5" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou6" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou7" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou8" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou9" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou10" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou11" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou12" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou13" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou14" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_1_1_1" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_1_1_2" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_1_1_3" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_1_1_4" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_2_1_1" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_2_1_2" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_2_1_3" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_2_1_4" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_3_1_1" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_3_1_2" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_3_1_3" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_4_1_1" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_4_1_2" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_4_1_3" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_4_1_4" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_5_1_1" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_5_1_2" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_5_1_3" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_5_1_4" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_6_1_1" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_6_1_2" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_6_1_3" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_6_1_4" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_7_1_1" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_8_1_1" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_8_1_2" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_9_1_1" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_9_1_2" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_10_1_1" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_10_1_2" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_10_1_3" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_10_1_4" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_11_1_1" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_12_1_1" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_12_1_2" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_12_1_3" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_13_1_1" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_13_1_2" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_14_1_1" android:screenOrientation="portrait"/>
+        <activity android:name=".Yobou_14_1_2" android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

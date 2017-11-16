@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kabegami22"
+    android:weightSum="1">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.80">
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="0"
+                android:layout_span="1"/>
+            <TextView
+                android:layout_column="1"
+                android:layout_span="1"/>
+            <TextView
+                android:layout_column="2"
+                android:layout_span="1"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="0"
+                android:layout_span="1"
+                android:text="計測日"
+                android:layout_weight="0.2"
+                />
+            <EditText
+                android:layout_column="1"
+                android:layout_span="1"
+                android:layout_weight="0.5"
+                android:background="#ffffff"
+                android:focusable="false"
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+                android:id="@+id/editt"
+                android:onClick="onclickcale" />
+        </TableRow>
+        <TableRow>
+            <TextView />
+        </TableRow>
+        <View android:layout_width="wrap_content" android:background="#000000" android:layout_height="1dp" android:layout_marginBottom="1dp"></View>
+
+        <TableRow>
+            <TextView />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="0"
+                android:text="身長"
+                android:layout_weight="0.3"
+                />
+            <EditText
+                android:layout_column="1"
+                android:layout_height="35dp"
+                android:hint="50.00"
+                android:layout_weight="0.5"
+                android:background="#ffffff"
+                android:inputType="number"/>
+            <TextView
+                android:layout_weight="0.2"
+                android:layout_column="0"
+                android:text="cm"/>
+        </TableRow><TableRow><TextView />
+    </TableRow>
+        <View android:layout_width="wrap_content" android:background="#000000" android:layout_height="1dp" android:layout_marginBottom="1dp"></View>
+        <TableRow><TextView /></TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="0"
+                android:text="体重"
+                android:layout_weight="0.3"
+                />
+            <EditText
+                android:layout_column="1"
+                android:background="#ffffff"
+                android:layout_height="35dp"
+                android:hint="50.00"
+                android:layout_weight="0.5"
+                android:inputType="number"
+                />
+            <TextView
+                android:layout_column="0"
+                android:layout_weight="0.2"
+                android:text="kg"/>
+        </TableRow>
+    </TableLayout>
+
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/topbtn"
+        android:id="@+id/imageButton2"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onclicktop" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/yoboubtn"
+        android:background="@android:color/transparent"
+        android:id="@+id/imageButton3"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:onClick="onclickyobou" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sokuteibtn"
+        android:background="@android:color/transparent"
+        android:id="@+id/imageButton"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/imageButton2"
+        android:onClick="onclicksokutei" />
+
+    <Button
+        android:text="登　　録"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFF"
+
+        android:layout_marginBottom="77dp"
+        android:id="@+id/button2"
+        android:layout_above="@+id/imageButton2"
+        android:layout_alignParentStart="true"
+        android:onClick="onclickkiroku" />
+
+
+</RelativeLayout>

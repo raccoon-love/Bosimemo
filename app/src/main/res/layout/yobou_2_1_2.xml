@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#FFFFFF"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="小児用肺炎球菌\nワクチン"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text="接種目安"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="24dp"
+        android:textSize="17dp"
+        android:background="@drawable/textview_style"
+
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/meyasu2_2" />
+
+    <TextView
+        android:text="予防接種した日を入力してください。"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="82dp"
+        android:background="#FFFF00"
+        android:textSize="20dp"
+
+        android:id="@+id/textView9" />
+
+    <TextView
+        android:text="接種した日"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:id="@+id/textView10" />
+
+
+    <TextView
+        android:text="2回目"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_marginTop="38dp"
+        android:id="@+id/textView12" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textSize="30dp"
+        android:inputType="textPersonName"
+        android:gravity="right"
+        android:ems="10"
+        android:focusable="false"
+        android:id="@+id/edityobou2_2"
+        android:background="#00000000"
+
+        android:hint="----/--/--"
+        android:onClick="onclick_ed_2_2"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="登　　録"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="67dp"
+        android:id="@+id/save2_1_2"
+        android:layout_alignParentStart="true"
+        android:onClick="onclicksave2_2" />
+
+
+</RelativeLayout>

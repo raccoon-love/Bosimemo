@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFE4E1"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:background="@drawable/textview_style2"
+                android:text="ロタウイルスワクチン"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.80">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="0"
+                        android:textSize="5dp"
+                        android:layout_span="1"/>
+                    <TextView
+                        android:layout_column="1"
+                        android:textSize="5dp"
+                        android:layout_span="1"/>
+                    <TextView
+                        android:layout_column="5"
+                        android:textSize="5dp"
+                        android:layout_span="1"/>
+                </TableRow>
+
+                <TableRow>
+
+                </TableRow>
+                <TableRow>
+                    <TextView  android:textSize="5dp"/>
+                </TableRow>
+                <View android:layout_width="wrap_content" android:background="#000000" android:layout_height="1dp" android:layout_marginBottom="1dp"></View>
+                <TableRow>
+                    <TextView  android:textSize="5dp"/>
+                </TableRow>  <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:layout_span="1"
+                    android:text="1回目"
+                    android:layout_weight="0.5"
+                    />
+                <TextView
+                    android:layout_column="3"
+                    android:layout_span="1"
+                    android:text="接種目安 "
+                    android:gravity="center"
+                    android:background="@drawable/textview_style"
+                    android:layout_weight="0.1"
+                    />
+                <TextView
+                    android:layout_column="5"
+                    android:layout_span="3"
+                    android:layout_weight="1"
+                    android:id="@+id/txtyobou12_1" />
+            </TableRow>
+                <TableRow>
+                    <TextView  android:textSize="5dp"/>
+                </TableRow>
+                <View android:layout_width="wrap_content" android:background="#000000" android:layout_height="1dp" android:layout_marginBottom="1dp"></View>
+
+                <TableRow>
+                    <TextView  android:textSize="5dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="0"
+                        android:layout_span="1"
+                        android:text="2回目"
+                        android:layout_weight="0.5"
+                        />
+                    <TextView
+                        android:layout_column="3"
+                        android:layout_span="1"
+                        android:text="接種目安 "
+                        android:gravity="center"
+                        android:background="@drawable/textview_style"
+                        android:layout_weight="0.1"
+                        />
+                    <TextView
+                        android:layout_column="5"
+                        android:layout_span="3"
+                        android:layout_weight="1"
+                        android:id="@+id/txtyobou12_2" />
+                </TableRow><TableRow><TextView  android:textSize="5dp"/>
+            </TableRow>
+                <View android:layout_width="wrap_content" android:background="#000000" android:layout_height="1dp" android:layout_marginBottom="1dp"></View>
+                <TableRow><TextView  android:textSize="5dp"/></TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="0"
+                        android:layout_span="1"
+                        android:text="3回目"
+                        android:layout_weight="0.5"
+                        />
+                    <TextView
+                        android:layout_column="3"
+                        android:layout_span="1"
+                        android:text="接種目安 "
+                        android:gravity="center"
+                        android:background="@drawable/textview_style"
+                        android:layout_weight="0.1"
+                        />
+                    <TextView
+                        android:layout_column="3"
+                        android:layout_span="3"
+                        android:layout_weight="1"
+                        android:id="@+id/txtyobou12_3" />
+                </TableRow>
+
+
+           <TableRow>
+                <TextView  android:textSize="5dp"/>/>
+            </TableRow>
+                <View android:layout_width="wrap_content" android:background="#000000" android:layout_height="1dp" android:layout_marginBottom="1dp"></View>
+                <TableRow>
+
+                    <TextView /></TableRow>
+
+
+            </TableLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:background="@drawable/edittxt_style"
+                    android:ems="8"
+                    android:gravity="center"
+                    android:onClick="onclicked12_1"
+                    android:focusable="false"
+                    android:id="@+id/yoboued12_1"
+                    android:layout_weight="0.80"
+                    android:hint="1回目の入力" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:background="#00000000"
+                    android:ems="1"
+                    android:focusable="false"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="8"
+                    android:gravity="center"
+                    android:focusable="false"
+                    android:onClick="onclicked12_2"
+                    android:background="@drawable/edittxt_style"
+                    android:id="@+id/yoboued12_2"
+                    android:layout_weight="0.80"
+                    android:hint="2回目の入力" />
+            </LinearLayout>
+            <TextView  android:textSize="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:background="@drawable/edittxt_style"
+                    android:ems="8"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:focusable="false"
+                    android:id="@+id/yoboued12_3"
+                    android:onClick="onclicked12_3"
+                    android:layout_weight="0.80"
+                    android:hint="3回目の入力" />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:background="#00000000"
+                    android:ems="1"
+                    android:focusable="false"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView  android:textSize="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="標準的な接種期間と接種回数"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:id="@+id/nametxt"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:text="生後6週から接種でき、14週6日までに1回目の接種を行います。ワクチンに2回接種（1価）と3回接種（5価）の2種類があり、、いずれの場合も接種間隔は4週間以上あけます。経口接種。\n※1価は生後24週未満まで、5価は生後32週未満までに完了する\n※予定日を過ぎた場合はかかりつけの小児科医にご相談ください。"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:id="@+id/textView3"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:text="予防できる病気"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:id="@+id/textView6"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:text="ロタウイルス胃腸炎\nロタウイルス胃腸炎は、乳幼児によく見られる急性胃腸炎です。。感染すると、発熱、嘔吐、水のような下痢が見られます。便が白くなる事が多いので、「白色便性下痢症」ともいわれることもあります。重症化して入院する子も多くいます。なれに脳症を起こすこともあるので注意が必要です。"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:id="@+id/textView7"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

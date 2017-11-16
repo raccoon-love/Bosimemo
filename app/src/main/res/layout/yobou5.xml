@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFE4E1"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:background="@drawable/textview_style2"
+                android:text="三種混合(DPT)ワクチン"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.80">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="0"
+                        android:textSize="5dp"
+                        android:layout_span="1"/>
+                    <TextView
+                        android:layout_column="1"
+                        android:textSize="5dp"
+                        android:layout_span="1"/>
+                    <TextView
+                        android:layout_column="5"
+                        android:textSize="5dp"
+                        android:layout_span="1"/>
+                </TableRow>
+
+                <TableRow>
+
+                </TableRow>
+                <TableRow>
+                    <TextView  android:textSize="5dp"/>
+                </TableRow>
+                <View android:layout_width="wrap_content" android:background="#000000" android:layout_height="1dp" android:layout_marginBottom="1dp"></View>
+                <TableRow>
+                    <TextView  android:textSize="5dp"/>
+                </TableRow>  <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:layout_span="1"
+                    android:text="1回目"
+                    android:layout_weight="0.5"
+                    />
+                <TextView
+                    android:layout_column="3"
+                    android:layout_span="1"
+                    android:text="接種目安 "
+                    android:gravity="center"
+                    android:background="@drawable/textview_style"
+                    android:layout_weight="0.1"
+                    />
+                <TextView
+                    android:layout_column="5"
+                    android:layout_span="3"
+                    android:layout_weight="1"
+                    android:id="@+id/txtyobou5_1" />
+            </TableRow>
+                <TableRow>
+                    <TextView  android:textSize="5dp"/>
+                </TableRow>
+                <View android:layout_width="wrap_content" android:background="#000000" android:layout_height="1dp" android:layout_marginBottom="1dp"></View>
+
+                <TableRow>
+                    <TextView  android:textSize="5dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="0"
+                        android:layout_span="1"
+                        android:text="2回目"
+                        android:layout_weight="0.5"
+                        />
+                    <TextView
+                        android:layout_column="3"
+                        android:layout_span="1"
+                        android:text="接種目安 "
+                        android:gravity="center"
+                        android:background="@drawable/textview_style"
+                        android:layout_weight="0.1"
+                        />
+                    <TextView
+                        android:layout_column="5"
+                        android:layout_span="3"
+                        android:layout_weight="1"
+                        android:id="@+id/txtyobou5_2" />
+                </TableRow><TableRow><TextView  android:textSize="5dp"/>
+            </TableRow>
+                <View android:layout_width="wrap_content" android:background="#000000" android:layout_height="1dp" android:layout_marginBottom="1dp"></View>
+                <TableRow><TextView  android:textSize="5dp"/></TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="0"
+                        android:layout_span="1"
+                        android:text="3回目"
+                        android:layout_weight="0.5"
+                        />
+                    <TextView
+                        android:layout_column="3"
+                        android:layout_span="1"
+                        android:text="接種目安 "
+                        android:gravity="center"
+                        android:background="@drawable/textview_style"
+                        android:layout_weight="0.1"
+                        />
+                    <TextView
+                        android:layout_column="3"
+                        android:layout_span="3"
+                        android:layout_weight="1"
+                        android:id="@+id/txtyobou5_3" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="5dp"/>/>
+                </TableRow>
+                <View android:layout_width="wrap_content" android:background="#000000" android:layout_height="1dp" android:layout_marginBottom="1dp"></View>
+                <TableRow>
+                    <TextView
+                        android:textSize="5dp"/>
+                </TableRow> <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:layout_span="1"
+                    android:text="4回目"
+                    android:layout_weight="0.5"
+                    />
+                <TextView
+                    android:layout_column="3"
+                    android:layout_span="1"
+                    android:gravity="center"
+                    android:text="接種目安 "
+                    android:background="@drawable/textview_style"
+                    android:layout_weight="0.1"
+                    />
+                <TextView
+                    android:layout_column="5"
+                    android:layout_span="3"
+                    android:layout_weight="1"
+                    android:id="@+id/txtyobou5_4" />
+            </TableRow><TableRow>
+                <TextView  android:textSize="5dp"/>/>
+            </TableRow>
+                <View android:layout_width="wrap_content" android:background="#000000" android:layout_height="1dp" android:layout_marginBottom="1dp"></View>
+                <TableRow>
+
+                    <TextView /></TableRow>
+
+
+            </TableLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:background="@drawable/edittxt_style"
+                    android:ems="8"
+                    android:gravity="center"
+                    android:focusable="false"
+                    android:id="@+id/yoboued5_1"
+                    android:onClick="onclicked5_1"
+
+                    android:layout_weight="0.80"
+                    android:hint="1回目の入力" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:background="#00000000"
+                    android:ems="1"
+                    android:focusable="false"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="8"
+                    android:gravity="center"
+                    android:onClick="onclicked5_2"
+
+                    android:focusable="false"
+                    android:background="@drawable/edittxt_style"
+                    android:id="@+id/yoboued5_2"
+                    android:layout_weight="0.80"
+                    android:hint="2回目の入力" />
+            </LinearLayout>
+            <TextView  android:textSize="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:background="@drawable/edittxt_style"
+                    android:ems="8"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:focusable="false"
+                    android:onClick="onclicked5_3"
+
+                    android:id="@+id/yoboued5_3"
+                    android:layout_weight="0.80"
+                    android:hint="3回目の入力" />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:background="#00000000"
+                    android:ems="1"
+                    android:focusable="false"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="8"
+                    android:layout_gravity="right"
+                    android:gravity="center"
+                    android:id="@+id/yoboued5_4"
+                    android:onClick="onclicked5_4"
+
+                    android:background="@drawable/edittxt_style"
+                    android:focusable="false"
+                    android:layout_weight="0.80"
+                    android:hint="4回目の入力" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView  android:textSize="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="※平成24年11月より三種混合ワクチンに不活化ポリオワクチンを加えた四種混合ワクチンが導入されました。\nこれから予防接種をする場合、三種混合ワクチンを接種することは基本的にありません。"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:textColor="#FF0000"
+                    android:id="@+id/textView31"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:text="標準的な接種期間と接種回数"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:id="@+id/nametxt"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:text="1期　生後3ヶ月～1歳の間に20～56日間の間隔で3回接種（初回接種）。3回目の1年～1年6ヶ月後に1回接種（追加接種）。\n2期　二種混合ワクチン(DT)を11歳以上で1回接種。"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:id="@+id/textView3"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:text="定期接種として接種が可能な時期\n1期　生後3ヶ月～7歳6ヶ月未満\n2期　11～13歳未満"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:textColor="#FF0000"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:id="@+id/textView4"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:text="※予定日を過ぎた場合はかかりつけの小児科医にご相談ください。"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:id="@+id/textView5"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:text="予防できる病気"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:id="@+id/textView6"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:text="ジフテリア(D)・百日せき(P)・破傷風(T)・ポリオ(IPV)\nジフテリアは高熱、のどの痛み、犬が吠えるようなせきなどの症状がみられ、のどや扁桃線に白っぽい膜が形成されます。場合によっては呼吸困難、心筋障害や神経麻痺などが起き、突然死することもあります。\n\n百日せきは風邪とよく似た症状からはじまり、激しい発作性のせきへと進行します。無呼吸発作や脳症を合併することもありあます。生後6ヶ月以下の赤ちゃんがかかると重症化しやすく、生命にかかわることがあります。\n\n破傷風は筋肉の麻痺やけいれんから死にいたることもある病気です。破傷風菌は土壌の中に広く存在しており、ちょっとしたけがなどの傷口から侵入して発病します。\n\nポリオは、「小児マヒ」ともいわれる病気です。ポリオウイルスに感染したことに気づかずに終わること（不顕性感染）も多いのですが、発熱などの数日後に急に下肢や上肢にマヒがでる場合があります。マヒによる後遺症が一生残ったり、場合によっては呼吸筋のマヒによって死亡することもあります。"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:id="@+id/textView7"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

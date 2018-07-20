@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
+/**ＬｉｓｔＶｉｅアダプター
  * Created by sunrise-system on 2016/10/14.
  */
 
